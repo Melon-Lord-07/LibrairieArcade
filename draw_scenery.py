@@ -23,6 +23,8 @@ class MyGame(arcade.Window):
         arcade.draw_rectangle_filled(200, self.height / 2, 30, 60, arcade.csscolor.BROWN)
 
         arcade.draw_circle_filled(200, 270, 50, arcade.color.YELLOW)
+
+        arcade.draw_circle_filled(300, 270, 50, arcade.color.RED)
         arcade.finish_render()
 
 
